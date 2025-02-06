@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import { faPlus } from '@fortawesome/free-solid-svg-icons'; 
 import "./style.css";
+
 const Todo = () => {
     const [inputData, setInputdata] = useState('')
     const [items, setitems] = useState([])
@@ -47,8 +48,10 @@ setitems([]);
             <div className='main-div'>
                 <div className='child-div'>
                     <figure>
-                        <img  src ="https://www.shutterstock.com/image-illustration/3d-checklist-pencil-on-blue-background-2201548587" alt='todo-icon' />
-                        <figcaption>
+                        
+                       <img src="checklist.png" /> 
+                       
+                        <figcaption> 
                            <b>
                             <h2>
                                  Add Your Items Here👌
